@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-kerning: auto;
+}
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+}
+
+/* NAVBAR settings */
+.NAVBAR-container {
+    position: static;
+    top: 0;
+    width: 100vw;
+    height: 20vh;
+    background-color: transparent;
+    color: black;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 2px solid black;
+
+}
+
+ul {
+    width: 20rem;
+    height: 1rem;
+    margin: auto;
+}
+
+li {
+    float: right;
+    list-style: none;
+    /* margin: 0 0 0 5rem; */
+    margin-left: 1rem;
+    font-size: 15px;
+    font-weight: 200px;
+}
+
+.NAVBAR-function {
+    border: 2px black solid;
+    padding: 2rem;
+    margin-right: 1rem;
+}
+
+.navbarlogo {
+    width: 9rem;
+    height: 8rem;
+}
+
+.NAVBAR-logo {
+    /* border: 2px solid black; */
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+/* NAVBAR ends here */
+
+
+/* Frame1 starts here */
+.frame1-container {
+    /* position: static;
+    top: 0; */
+    width: 100vw;
+    height: 80vh;
+    border: 2px solid black;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.frame1-column1,
+.frame1-column2,
+.frame1-column3 {
+    flex-basis: 33%;
+    width: auto;
+    height: auto;
+    padding: 2rem;
+    margin: 0 0.5rem 0 0.5rem;
+    border: 2px solid red;
+}
+
+.frame1-column2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Frame1 ends here */
+
+/* Frame2 starts here */
+.frame2-container {
+    /* position: relative;
+    top: 20rem; */
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-;
+    padding: 2rem;
+}
+
+.frame2-column1 {
+    flex-basis: 15%;
+    height: auto;
+    padding: 50px;
+    /* border: 2px solid black; */
+    margin: 1rem auto 1rem auto;
+}
+
+.frame2-column2 {
+    flex-basis: 80%;
+    margin: 1rem auto 1rem auto;
+    text-align: center;
+    height: auto;
+    border: 2px solid black;
+    padding: 50px;
+}
+/* frame 2 ends here */
+/* frame 3 starts here */
+.frame3-container{
+    width: 100vw;
+    height: auto;
+    padding: 2rem;
+    border: 2px solid black ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.frame3-column1, .frame3-column2, .frame3-column3, .frame3-column4, .frame3-column5, .frame3-column6{
+    flex-basis: 25%;
+    height: auto;
+    padding: 50px;
+    border: 2px solid black;
+    margin: 2rem;
+}
